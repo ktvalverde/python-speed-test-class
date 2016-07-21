@@ -56,5 +56,5 @@ class SpeedTest:
                 print("SpeedTest result for {0}: {1} seconds".format(label, difference))
         else:
             difference = (self.time_end["end"] - self.time_beg["beg"]).total_seconds()
-            label = "generic"
+            label = "unlabeled"
             print("SpeedTest result for {0}: {1} seconds".format(label, difference))
